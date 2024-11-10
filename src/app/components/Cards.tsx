@@ -45,7 +45,8 @@ export function Nextjs() {
         <div className= "title" >
          TypeScript Projects
          <Image src={nextjs} alt="" width={ 100} height={100}  className='mt-5'/>
-         <button className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>View</button>
+         <button className='w-200px h-50px mt-10 border rounded bg-purple-800 text-white hover:text-purple-950 hover:bg-white'>
+          View</button>
         </div>
         <div>
             
