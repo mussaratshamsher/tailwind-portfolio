@@ -1,0 +1,62 @@
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,
+body,
+:root{
+  height: 100%;
+}
+
+
+  /* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+} 
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+   color: var(--foreground);
+  background: var(--background); 
+  font-family: Arial, Helvetica, sans-serif;
+} 
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}  
+*/
+
+ .title{
+      text-align: center;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      justify-items: center;
+        width: 100%;
+        padding: 0%;
+       text-shadow: 3px 3px 8px rgb(148, 2, 245);
+       color: gainsboro;
+        font-size: 40px;
+        box-sizing: border-box;
+} 
+.title-h{
+  text-align: center;
+  justify-items: center;
+    width: 100%;
+    padding: 0%;
+   text-shadow: 3px 3px 8px rgb(145, 21, 228);
+   color: gainsboro;
+    font-size: 30px;
+    box-sizing: border-box;
+} 
+span{ 
+  font-size: 50px;
+}
